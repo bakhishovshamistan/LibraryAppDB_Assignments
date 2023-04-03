@@ -11,12 +11,13 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",
                 "html:target/cucumber-report.html",
                 "rerun:target/rerun.txt" ,
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber.json"
         },
         features = "src/test/resources/features" ,
         glue = "com/library/steps",
         dryRun = false,
-        tags = "@B28G47-158"
+        tags = "@us01"
 )
 public class CukesRunner {
 
