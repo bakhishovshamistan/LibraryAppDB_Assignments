@@ -1,7 +1,9 @@
-
+@B28G47-158
 Feature: Books module
   As a librarian, I should be able to add new book into library
 
+
+  @db @ui
   Scenario Outline: Verify added book is matching with DB
     Given the "librarian" on the home page
     And the user navigates to "Books" page
