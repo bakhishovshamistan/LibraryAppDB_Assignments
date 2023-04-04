@@ -1,6 +1,5 @@
 package com.library.steps;
 
-import com.library.pages.BasePage;
 import com.library.pages.BookPage;
 import com.library.pages.LoginPage;
 import com.library.utility.BrowserUtil;
@@ -11,11 +10,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 
 import java.util.Map;
 
-public class US06_StepDef {
+public class US06_StepDef_Shami_Elena {
 
     LoginPage loginPage = new LoginPage();
     BookPage bookPage = new BookPage();
